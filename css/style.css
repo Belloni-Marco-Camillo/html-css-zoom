@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --1440-backgound: #F74823;
+    --contain-background:#0A51F7;
+    --card-background:#A9F723;
+}
+.contain-1440{
+    width: 1440px;
+    margin: 0 auto;
+}
+.debug-contain-1440{
+    background-color: var(--1440-backgound);
+    height: 667px;
+}
+.debug-grid-img{
+    background-color: var(--contain-background);
+    height: 558px;
+    width: 1308px;
+    margin: 58px auto 21px auto;
+}
+.card{
+    position: relative;
+}
+.position-lorem{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.356);
+    font-size: 8px;
+    z-index: 1;
+    height: 15px;
+    color: white;
+    padding: 0 5px;
+}
+.flex{
+    display: flex;
+}
+.card i{
+    line-height: 15px;
+    color: white;
+    padding: 0 5px;
+}
+.row{
+    justify-content: space-between;
+}
+.comand-view{
+    justify-content: flex-end;
+}
+.comand-view span{
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.item{
+    flex-direction: row;
+}
+#footer-site{
+    background-color: #222222;
+}
+.flex-column{
+    flex-direction: column;
+    align-items: center;
+}
+.col-25-sx{
+    padding: 10px;
+    color: white;
+}
+.footer-bar{
+    justify-content: space-between;
+}
+.col-50-center{
+    padding: 10px;
+    color: white;
+}
