@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 :root{
-    --1440-backgound: #F74823;
+    --1440-backgound: black;
     --contain-background:#0A51F7;
     --card-background:#A9F723;
 }
@@ -75,4 +75,20 @@
 .col-50-center{
     padding: 10px;
     color: white;
+}
+.col-25-dx{
+    background-color: #4A4A4A;
+    width: 100px;
+    height: 60px;
+}
+.col-25-dx>p{
+    line-height: 60px;
+    color: red;
+}
+#spiaker{
+    background-color: rgba(255, 255, 255, 0.465);
+    border-radius: 5px;
+}
+#spiaker-icon{
+    background-color: rgba(255, 255, 255, 0.465);
 }
